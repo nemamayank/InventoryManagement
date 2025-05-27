@@ -35,7 +35,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import com.inventorymanagement.R
-import com.inventorymanagement.viewmodel.ProductViewModel
+import com.inventorymanagement.ui.viewmodel.ProductViewModel
 import org.koin.androidx.compose.koinViewModel
 
 @OptIn(ExperimentalMaterial3Api::class)

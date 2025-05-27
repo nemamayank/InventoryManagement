@@ -3,7 +3,7 @@ package com.inventorymanagement.di
 import androidx.room.Room
 import com.inventorymanagement.data.local.AppDatabase
 import com.inventorymanagement.data.repository.ProductRepository
-import com.inventorymanagement.viewmodel.ProductViewModel
+import com.inventorymanagement.ui.viewmodel.ProductViewModel
 import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.dsl.module
 

@@ -1,4 +1,4 @@
-package com.inventorymanagement.viewmodel
+package com.inventorymanagement.ui.viewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel

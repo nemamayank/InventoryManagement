@@ -28,7 +28,7 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.inventorymanagement.R
 import com.inventorymanagement.data.local.Product
-import com.inventorymanagement.viewmodel.ProductViewModel
+import com.inventorymanagement.ui.viewmodel.ProductViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
