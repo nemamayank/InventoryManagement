@@ -119,10 +119,10 @@ fun AddEditProductScreen(navController: NavController, productId: Long) {
 
                         else -> {
 
-                            val existing = withContext(Dispatchers.IO) {
+                            val existingProduct = withContext(Dispatchers.IO) {
                                 vm.getProductByNameOrSku(name.trim(), sku.trim())
                             }
-                            if (existing != null && existing.id != productId) {
+                            if (existingProduct != null && existingProduct.id != productId) {
                                 snack.showSnackbar("A product with this name / sku already exists.")
                                 return@launch
                             }
