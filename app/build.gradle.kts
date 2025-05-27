@@ -54,9 +54,6 @@ android {
         schemaDirectory("$projectDir/schemas")
     }
 }
-/*ksp {
-    arg("room.schemaLocation", "$projectDir/schemas")
-}*/
 
 
 dependencies {
